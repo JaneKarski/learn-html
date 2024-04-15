@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>测试</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/index.css">
+</head>
+<body>
+	<!-- 标题设置 -->
+	<h1>简介</h1>
+	<!-- 锚点设置 -->
+	<a name="top">首页</a>
+	<br><a href="#bottom">跳到底部</a>
+
+	
+	<!-- 独立成篇 -->
+	<article>
+		<header>
+			<nav>导航</nav>
+			<h1>文章</h1>
+			<h1>评论</h1>
+		</header>
+	</article>
+	<!-- 段落设置 -->
+	<p>你好</p>
+	<p>
+		<b>我喜欢<i>pyhton</i>，<br><u>同时</u>我还喜欢<del>听歌</del>
+		</b>
+	</p>
+	<hr>
+	<!-- 容器设置 -->
+	<div>
+		<p>努力学习,天天向上</p>
+		<!-- 超链接设置 -->
+		<a href="https://www.baidu.com" target="_black">百度</a>
+	</div>
+	<!-- 图片设置 -->
+	<figure>部分代码截图
+		<img src="../img/photo.webp" alt="图片加载失败">
+	</figure>
+	<!-- 嵌入文档内容 -->
+	<iframe src="C:\Users\Administrator\Desktop\新建文本文档.txt" target="in" 
+	alt="文档加载失败">
+	</iframe>
+	<!-- js设置 -->
+	<script type="text/javascript">
+		var num = 20;
+		console.log(num);
+	</script>
+	<p>
+		<!-- 无序列表 -->
+		<ul type="square">
+			<li>水果
+				<!-- 有序列表 -->
+				<ol type="a">
+					<li>苹果</li>
+					<li>香蕉</li>
+					<li>榴莲</li>
+				</ol>
+			</li>
+			<li>肉类</li>
+			<li>蔬菜</li>
+		</ul>
+	</p>
+	<p>
+		<!-- 表格 -->
+		<table>
+			<tr>
+				<!-- 表格标题 -->
+				<th>姓名</th>
+				<th>年龄</th>
+			</tr>
+			<tr>
+				<!-- 表格内容 -->
+				<td>jabin</td>
+				<td>10</td>
+			</tr>
+			<tr>
+				<td>tiamo</td>
+				<td>20</td>
+			</tr>
+		</table>
+	</p>
+	<!-- 快捷方式 -->
+	<!-- table>tr*3>td*3{danyuange} -->
+
+	<!-- 表单元素 -->
+	<!-- <form action="服务器地址" method="get|post" name="myform"></form> -->
+	<form>
+		用户名：<input name="username" type="text" placeholder="请输入用户名">
+		<br>
+		密码：<input name="pwd" type="password" placeholder="请输入密码">
+		<button type="submit">提交</button>
+		<button type="reset">重置</button>
+		<br>
+		性别：<label><input type="radio" name='gender'>男</label>
+			<label><input type="radio" name="gender">女</label>
+		<br>
+		上传文件：<input type="file" multiple>
+		<br>
+		<!-- 下拉菜单 -->
+		<select name="fruit">
+　　			<option>苹果</option>
+			<option>香蕉</option>
+		</select>
+		<br>
+		<textarea cols="10" rows="10"></textarea>
+	</form>
+	<p>
+		<a href="#top">点击回到首页</a>
+		<br><a name="bottom">底部</a>
+		<br><span>结束了</span>
+	</p>	
+</body>
+</html>
